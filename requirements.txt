@@ -1,0 +1,6 @@
+streamlit
+ollama
+psutil
+fastapi
+uvicorn
+requests
