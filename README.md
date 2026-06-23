@@ -1,273 +1,280 @@
 # 🚀 PerfMind
 
-### AI-Powered Multi-Language Code Optimization Platform
+<div align="center">
 
-PerfMind is an intelligent software engineering platform that analyzes, optimizes, executes, validates, and explains source code using AI-driven multi-agent architecture.
+### 🤖 AI-Powered Multi-Language Code Optimization Platform
 
-The system leverages **FastAPI**, **React**, **Ollama**, and **Llama 3** to provide automated performance optimization, runtime benchmarking, AI-assisted code explanations, and optimization validation across multiple programming languages.
+Analyze • Optimize • Execute • Validate • Explain
 
----
+Built using **React**, **FastAPI**, **Ollama**, and **Llama 3**
 
-## 📌 Project Overview
-
-Software developers often struggle to identify performance bottlenecks, inefficient algorithms, and excessive memory consumption.
-
-PerfMind addresses this challenge by combining AI analysis with runtime execution to automatically:
-
-* Analyze source code
-* Detect performance issues
-* Generate optimized code
-* Execute both versions
-* Compare runtime metrics
-* Validate optimization quality
-* Explain improvements using AI
+</div>
 
 ---
 
-# ✨ Features
+## 🌟 Overview
 
-## Multi-Language Support
+PerfMind is an intelligent software engineering platform that automatically analyzes source code, identifies performance bottlenecks, generates optimized implementations, benchmarks runtime improvements, validates optimization quality, and provides AI-powered explanations.
 
-Supported languages:
-
-* Python
-* JavaScript
-* Java
-* C
-* C++
+The platform combines a **Multi-Agent AI Architecture** with real code execution and benchmarking to help developers improve software performance efficiently.
 
 ---
 
-## AI Multi-Agent Architecture
+## ✨ Key Features
 
-### 🔍 Analyzer Agent
+### 🤖 AI Multi-Agent System
 
-Identifies:
+#### 🔍 Analyzer Agent
 
-* Performance bottlenecks
-* Time complexity issues
-* Memory inefficiencies
-* Optimization opportunities
+* Detects performance bottlenecks
+* Identifies inefficient algorithms
+* Evaluates time complexity
+* Detects memory usage issues
 
----
+#### ⚡ Optimizer Agent
 
-### ⚡ Optimizer Agent
+* Generates optimized code using AI
+* Improves runtime performance
+* Reduces memory consumption
+* Preserves original functionality
 
-Uses Llama 3 to:
+#### ▶️ Executor Agent
 
-* Refactor inefficient code
-* Improve runtime performance
-* Reduce memory usage
-* Generate optimized implementations
+* Secure code execution
+* Runtime benchmarking
+* Memory usage tracking
+* Multi-language support
 
----
+#### ✅ Validator Agent
 
-### ▶️ Executor Agent
-
-Safely executes:
-
-* Original code
-* Optimized code
-
-Measures:
-
-* Execution time
-* Memory consumption
-* Runtime statistics
+* Compares original and optimized code
+* Calculates performance improvements
+* Accepts or rejects optimizations
+* Generates validation reports
 
 ---
 
-### ✅ Validator Agent
+## 💻 Multi-Language Support
 
-Compares:
+PerfMind currently supports:
 
-* Original metrics
-* Optimized metrics
-
-Determines whether optimization should be accepted.
-
----
-
-## Runtime Benchmarking
-
-PerfMind measures:
-
-* Execution time
-* Memory usage
-* Performance gain
-* Optimization score
+| Language     | Analysis | Optimization | Execution |
+| ------------ | -------- | ------------ | --------- |
+| 🐍 Python    | ✅        | ✅            | ✅         |
+| ⚡ JavaScript | ✅        | ✅            | ✅         |
+| ☕ Java       | ✅        | ✅            | ✅         |
+| 🔵 C         | ✅        | ✅            | ✅         |
+| 🔷 C++       | ✅        | ✅            | ✅         |
 
 ---
 
-## AI Chat Assistant
+## 📊 Performance Analytics
 
-Users can ask:
+### Runtime Metrics
+
+* ⏱ Execution Time
+* 🧠 Memory Usage
+* 📈 Performance Gain
+* 🎯 Optimization Score
+
+### Benchmarking
+
+* Original Code Analysis
+* Optimized Code Analysis
+* Runtime Comparison
+* Memory Comparison
+
+---
+
+## 🧠 AI Features
+
+### 💬 AI Chat Assistant
+
+Ask PerfMind AI:
 
 * What is the time complexity?
 * Why is this code slow?
 * How can memory usage be reduced?
 * Explain the optimization.
 * Can this algorithm be improved?
+* What are the bottlenecks?
 
-Powered by Llama 3 via Ollama.
+Powered by **Llama 3 via Ollama**.
 
 ---
 
-## PDF Report Generation
+## 📄 PDF Report Generation
 
-Generate downloadable reports containing:
+Generate professional reports containing:
 
-* AI analysis
-* Optimized code
+* AI Analysis
+* Optimized Code
+* Runtime Metrics
+* Validation Results
+* Optimization Summary
+
+---
+
+## 📂 Optimization History
+
+Store and review:
+
+* Previous analyses
 * Runtime metrics
+* Generated optimizations
 * Validation results
-* Optimization summary
+* Historical performance data
 
 ---
 
-## Optimization History
+## 🔄 Live Agent Monitoring
 
-Stores analysis results using SQLite:
+Visualize the entire optimization pipeline:
 
-* Language
-* Runtime metrics
-* Generated code
-* Analysis reports
-* Validation results
-
----
-
-## Live Agent Streaming
-
-Visualizes:
-
-* Analyzer activity
-* Optimizer activity
-* Executor activity
-* Validator activity
-
-in real time.
-
----
-
-## Code Diff Viewer
-
-Highlights differences between:
-
-* Original code
-* Optimized code
-
-for easier review.
-
----
-
-# 🏗 System Architecture
-
+```text
 User Code
-
-↓
-
-Frontend (React)
-
-↓
-
-FastAPI Backend
-
-↓
-
+     ↓
 Analyzer Agent
-
-↓
-
+     ↓
 Optimizer Agent
-
-↓
-
+     ↓
 Executor Agent
-
-↓
-
+     ↓
 Validator Agent
-
-↓
-
+     ↓
 Results Dashboard
-
-↓
-
-AI Chat Assistant / PDF Export
+```
 
 ---
 
-# 🛠 Technology Stack
+## 🔍 Code Diff Viewer
+
+Compare:
+
+* Original Code
+* Optimized Code
+
+with side-by-side visual differences.
+
+---
+
+## 🏗️ System Architecture
+
+```text
+                ┌─────────────────────┐
+                │      React UI       │
+                └──────────┬──────────┘
+                           │
+                           ▼
+                ┌─────────────────────┐
+                │     FastAPI API     │
+                └──────────┬──────────┘
+                           │
+        ┌──────────────────┼──────────────────┐
+        ▼                  ▼                  ▼
+ ┌────────────┐    ┌────────────┐    ┌────────────┐
+ │ Analyzer   │    │ Optimizer  │    │ Executor   │
+ │   Agent    │    │   Agent    │    │   Agent    │
+ └────────────┘    └────────────┘    └────────────┘
+                           │
+                           ▼
+                  ┌────────────────┐
+                  │ Validator Agent│
+                  └────────────────┘
+                           │
+                           ▼
+                ┌─────────────────────┐
+                │ Results & Reports   │
+                └─────────────────────┘
+```
+
+---
+
+## 🛠️ Technology Stack
 
 ### Frontend
 
-* React.js
-* Axios
-* Monaco Editor
-* Recharts
-* Lucide Icons
+* ⚛️ React.js
+* 📡 Axios
+* 📝 Monaco Editor
+* 📊 Recharts
+* 🎨 Lucide React
 
 ### Backend
 
-* FastAPI
-* Python
-* SQLite
-* ReportLab
+* ⚡ FastAPI
+* 🐍 Python
+* 🗄 SQLite
+* 📄 ReportLab
 
 ### AI Layer
 
-* Ollama
-* Llama 3
+* 🤖 Ollama
+* 🧠 Llama 3
 
 ### Runtime Support
 
 * Python
 * Node.js
 * OpenJDK
-* GCC/G++
+* GCC
+* G++
 
 ---
 
-# 📊 Dashboard Features
+## 📸 Application Modules
 
-* Optimization Gain
-* Execution Saved
-* Memory Saved
-* AI Score
-* Runtime Charts
-* Agent Monitoring
-* Optimization History
-* AI Chat Assistant
-* PDF Export
+### 📊 Dashboard
+
+Real-time optimization statistics and metrics.
+
+### 🔍 AI Analysis
+
+Detailed code performance analysis.
+
+### ⚡ Optimization Engine
+
+AI-generated optimized code.
+
+### 📈 Runtime Metrics
+
+Execution and memory benchmarking.
+
+### 🤖 Agent Monitor
+
+Live agent execution tracking.
+
+### 💬 AI Chat Assistant
+
+Interactive AI-powered coding assistant.
+
+### 📂 History Manager
+
+View previous analyses and reports.
+
+### 📄 PDF Reporting
+
+Generate downloadable optimization reports.
 
 ---
 
-# ⚙️ Installation
+## ⚙️ Installation
 
-## Clone Repository
+### Clone Repository
 
 ```bash
 git clone https://github.com/Bunny100806/PerfMind.git
 cd PerfMind
 ```
 
-## Backend Setup
+### Backend Setup
 
 ```bash
 pip install -r requirements.txt
-```
-
-Run backend:
-
-```bash
 uvicorn api:app --reload
 ```
 
----
-
-## Frontend Setup
+### Frontend Setup
 
 ```bash
 cd frontend
@@ -275,9 +282,7 @@ npm install
 npm start
 ```
 
----
-
-## Ollama Setup
+### Ollama Setup
 
 Install Ollama:
 
@@ -289,7 +294,7 @@ Download Llama 3:
 ollama pull llama3
 ```
 
-Run model:
+Run Model:
 
 ```bash
 ollama run llama3
@@ -297,60 +302,78 @@ ollama run llama3
 
 ---
 
-# 📸 Screenshots
+## 🎯 Project Achievements
 
-Add screenshots of:
+✅ Multi-Agent Architecture
 
-1. Dashboard
-2. AI Analysis
-3. Optimization Engine
-4. Runtime Metrics
-5. History Page
-6. AI Chat Assistant
-7. PDF Export
+✅ Multi-Language Support
 
----
+✅ Runtime Benchmarking
 
-# 🔮 Future Enhancements
+✅ AI Code Optimization
 
-* Docker Deployment
-* Cloud Execution Sandbox
-* Advanced Security Scanning
-* CI/CD Integration
-* GitHub Pull Request Analysis
-* AI Auto-Fix Suggestions
-* Team Collaboration Features
-* Kubernetes Deployment
+✅ AI Chat Assistant
+
+✅ PDF Report Generation
+
+✅ Optimization Validation
+
+✅ Optimization History Tracking
+
+✅ GitHub Deployment
+
+✅ Professional Dashboard Interface
 
 ---
 
-# 🎓 Academic Value
+## 🔮 Future Enhancements
 
-This project demonstrates:
+* 🐳 Docker Deployment
+* ☁️ Cloud Execution Sandbox
+* 🔒 Advanced Security Analysis
+* 🔄 CI/CD Integration
+* 📡 GitHub Pull Request Analysis
+* 🤖 AI Auto-Fix Recommendations
+* 👥 Team Collaboration Features
+* ☸️ Kubernetes Deployment
+
+---
+
+## 🎓 Academic Significance
+
+This project demonstrates practical applications of:
 
 * Artificial Intelligence
 * Software Engineering
-* Compiler Concepts
-* Runtime Analysis
-* System Design
 * Full Stack Development
-* Multi-Agent Architectures
-* Performance Optimization
+* Multi-Agent Systems
+* Runtime Analysis
+* Performance Engineering
+* Large Language Models
+* Modern Web Technologies
 
 ---
 
-# 👨‍💻 Author
+# 👨‍💻 Authors
 
-Sai Charitharth Nadigoti [79103]
+### 👨‍🎓 Sai Charitharth Nadigoti
 
-Ayan Shaikh Maksuddin [79112]
+**B.Sc. Computer Engineering**
 
-Computer Science Engineering
+### 👨‍🎓 Ayan Shaikh
 
-Warsaw Management University
+**B.Sc. Computer Engineering**
+
+### 🎓 Vistula University
+
+*(Akademia Finansów i Biznesu Vistula)*
+
+### 📍 Warsaw, Poland
 
 ---
 
-# 📜 License
+## 📜 License
 
-This project is developed for academic and educational purposes.
+This project was developed for academic and educational purposes.
+
+© 2026 PerfMind Team
