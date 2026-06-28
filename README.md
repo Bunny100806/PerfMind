@@ -1,192 +1,127 @@
-# 🚀 PerfMind
+````markdown
+<!-- ========================================================= -->
+<!--                     PERFMIND README                       -->
+<!-- ========================================================= -->
 
 <div align="center">
 
-### 🤖 AI-Powered Multi-Language Code Optimization Platform
+# ⚡ PerfMind  
+### 🧠 Agentic LLM System for Execution-Aware Multi-Language Code Performance Optimization
 
-Analyze • Optimize • Execute • Validate • Explain
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=24&duration=3000&pause=1000&color=00E5FF&center=true&vCenter=true&width=900&lines=AI-Powered+Code+Performance+Optimizer;Multi-Agent+LLM+Execution+Pipeline;Analyze+%E2%86%92+Optimize+%E2%86%92+Execute+%E2%86%92+Validate;Built+with+React+%2B+FastAPI+%2B+Ollama+%2B+Llama+3" alt="Typing SVG" />
 
-Built using **React**, **FastAPI**, **Ollama**, and **Llama 3**
+<br/>
+
+![React](https://img.shields.io/badge/Frontend-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Python](https://img.shields.io/badge/Core-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Ollama](https://img.shields.io/badge/LLM-Ollama-black?style=for-the-badge)
+![Llama3](https://img.shields.io/badge/Model-Llama%203-8A2BE2?style=for-the-badge)
+![SQLite](https://img.shields.io/badge/Database-SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+
+<br/>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-Supported-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-Supported-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![C](https://img.shields.io/badge/C-Supported-00599C?style=flat-square&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-Supported-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-Supported-3776AB?style=flat-square&logo=python&logoColor=white)
 
 </div>
 
 ---
 
-## 🌟 Overview
+## 🎬 Project Overview
 
-PerfMind is an intelligent software engineering platform that automatically analyzes source code, identifies performance bottlenecks, generates optimized implementations, benchmarks runtime improvements, validates optimization quality, and provides AI-powered explanations.
+**PerfMind** is an AI-powered, multi-language code performance optimization platform that combines **Large Language Model reasoning** with **real execution feedback**.
 
-The platform combines a **Multi-Agent AI Architecture** with real code execution and benchmarking to help developers improve software performance efficiently.
+Unlike normal AI code assistants that only suggest optimized code, PerfMind actually executes both the **original code** and the **optimized code**, compares runtime metrics, and validates whether the optimization is truly useful.
 
----
-
-## ✨ Key Features
-
-### 🤖 AI Multi-Agent System
-
-#### 🔍 Analyzer Agent
-
-* Detects performance bottlenecks
-* Identifies inefficient algorithms
-* Evaluates time complexity
-* Detects memory usage issues
-
-#### ⚡ Optimizer Agent
-
-* Generates optimized code using AI
-* Improves runtime performance
-* Reduces memory consumption
-* Preserves original functionality
-
-#### ▶️ Executor Agent
-
-* Secure code execution
-* Runtime benchmarking
-* Memory usage tracking
-* Multi-language support
-
-#### ✅ Validator Agent
-
-* Compares original and optimized code
-* Calculates performance improvements
-* Accepts or rejects optimizations
-* Generates validation reports
-
----
-
-## 💻 Multi-Language Support
-
-PerfMind currently supports:
-
-| Language     | Analysis | Optimization | Execution |
-| ------------ | -------- | ------------ | --------- |
-| 🐍 Python    | ✅        | ✅            | ✅         |
-| ⚡ JavaScript | ✅        | ✅            | ✅         |
-| ☕ Java       | ✅        | ✅            | ✅         |
-| 🔵 C         | ✅        | ✅            | ✅         |
-| 🔷 C++       | ✅        | ✅            | ✅         |
-
----
-
-## 📊 Performance Analytics
-
-### Runtime Metrics
-
-* ⏱ Execution Time
-* 🧠 Memory Usage
-* 📈 Performance Gain
-* 🎯 Optimization Score
-
-### Benchmarking
-
-* Original Code Analysis
-* Optimized Code Analysis
-* Runtime Comparison
-* Memory Comparison
-
----
-
-## 🧠 AI Features
-
-### 💬 AI Chat Assistant
-
-Ask PerfMind AI:
-
-* What is the time complexity?
-* Why is this code slow?
-* How can memory usage be reduced?
-* Explain the optimization.
-* Can this algorithm be improved?
-* What are the bottlenecks?
-
-Powered by **Llama 3 via Ollama**.
-
----
-
-## 📄 PDF Report Generation
-
-Generate professional reports containing:
-
-* AI Analysis
-* Optimized Code
-* Runtime Metrics
-* Validation Results
-* Optimization Summary
-
----
-
-## 📂 Optimization History
-
-Store and review:
-
-* Previous analyses
-* Runtime metrics
-* Generated optimizations
-* Validation results
-* Historical performance data
-
----
-
-## 🔄 Live Agent Monitoring
-
-Visualize the entire optimization pipeline:
+The system follows an **agentic workflow**:
 
 ```text
-User Code
-     ↓
-Analyzer Agent
-     ↓
-Optimizer Agent
-     ↓
-Executor Agent
-     ↓
-Validator Agent
-     ↓
-Results Dashboard
+Code Input → AI Analysis → Optimization → Execution → Validation → Report
+````
+
+PerfMind is designed for software engineering, performance analysis, academic research, and AI-assisted programming education.
+
+---
+
+## 🚀 Key Features
+
+| Feature                   | Description                                                    |
+| ------------------------- | -------------------------------------------------------------- |
+| 🧠 AI Code Analysis       | Uses Llama 3 through Ollama to detect performance bottlenecks  |
+| ⚙️ Multi-Agent Pipeline   | Analyzer, Optimizer, Executor, and Validator agents            |
+| 🧪 Real Code Execution    | Runs original and optimized code locally                       |
+| 📊 Runtime Metrics        | Measures execution time, memory usage, gain, and saved time    |
+| ✅ Validation Engine       | Accepts or rejects optimization using real measured results    |
+| 🌐 Multi-Language Support | Supports Python, JavaScript, Java, C, and C++                  |
+| 🖥️ Monaco Code Editor    | VS Code-style code editor inside the browser                   |
+| 📈 Runtime Charts         | Visual comparison of original vs optimized execution           |
+| 🔍 Code Diff Viewer       | Side-by-side comparison of original and optimized code         |
+| 💬 AI Chat Assistant      | Ask follow-up questions about code complexity and optimization |
+| 🧾 PDF Report Export      | Generates professional analysis reports                        |
+| 🗃️ SQLite History        | Stores previous optimization runs                              |
+| 🎨 Premium UI             | Modern cinematic dashboard with dark futuristic design         |
+
+---
+
+## 🧩 System Architecture
+
+```mermaid
+flowchart TD
+    A[User Code Input] --> B[React Frontend]
+    B --> C[FastAPI Backend]
+
+    C --> D[Analyzer Agent]
+    D --> E[Optimizer Agent]
+    E --> F[Executor Agent]
+    F --> G[Validator Agent]
+
+    D --> H[Ollama + Llama 3]
+    E --> H
+
+    F --> I[Python Runtime]
+    F --> J[Node.js Runtime]
+    F --> K[OpenJDK Runtime]
+    F --> L[GCC / G++ Runtime]
+
+    G --> M[Runtime Metrics]
+    M --> N[SQLite History]
+    M --> O[PDF Report Generator]
+
+    O --> P[Downloadable Report]
+    N --> Q[History Page]
 ```
 
 ---
 
-## 🔍 Code Diff Viewer
+## 🤖 Agentic Workflow
 
-Compare:
+PerfMind uses four coordinated agents:
 
-* Original Code
-* Optimized Code
+### 1. 🔎 Analyzer Agent
 
-with side-by-side visual differences.
+Inspects the submitted code and identifies possible problems such as:
 
----
+* nested loop overhead
+* inefficient data structures
+* repeated computations
+* memory growth
+* poor time complexity
 
-## 🏗️ System Architecture
+### 2. ⚡ Optimizer Agent
 
-```text
-                ┌─────────────────────┐
-                │      React UI       │
-                └──────────┬──────────┘
-                           │
-                           ▼
-                ┌─────────────────────┐
-                │     FastAPI API     │
-                └──────────┬──────────┘
-                           │
-        ┌──────────────────┼──────────────────┐
-        ▼                  ▼                  ▼
- ┌────────────┐    ┌────────────┐    ┌────────────┐
- │ Analyzer   │    │ Optimizer  │    │ Executor   │
- │   Agent    │    │   Agent    │    │   Agent    │
- └────────────┘    └────────────┘    └────────────┘
-                           │
-                           ▼
-                  ┌────────────────┐
-                  │ Validator Agent│
-                  └────────────────┘
-                           │
-                           ▼
-                ┌─────────────────────┐
-                │ Results & Reports   │
-                └─────────────────────┘
-```
+Uses the LLM to generate an improved version of the code while preserving the original logic.
+
+### 3. 🧪 Executor Agent
+
+Executes both the original and optimized versions using the correct runtime environment.
+
+### 4. ✅ Validator Agent
+
+Compares runtime values and decides whether the optimization should be accepted or rejected.
 
 ---
 
@@ -194,186 +129,358 @@ with side-by-side visual differences.
 
 ### Frontend
 
-* ⚛️ React.js
-* 📡 Axios
-* 📝 Monaco Editor
-* 📊 Recharts
-* 🎨 Lucide React
+| Technology    | Purpose            |
+| ------------- | ------------------ |
+| React         | Web interface      |
+| Monaco Editor | Code editor        |
+| Axios         | API communication  |
+| Recharts      | Runtime charts     |
+| Lucide React  | Icons              |
+| CSS           | Premium UI styling |
 
 ### Backend
 
-* ⚡ FastAPI
-* 🐍 Python
-* 🗄 SQLite
-* 📄 ReportLab
-
-### AI Layer
-
-* 🤖 Ollama
-* 🧠 Llama 3
+| Technology | Purpose                      |
+| ---------- | ---------------------------- |
+| FastAPI    | REST API backend             |
+| Python     | Core backend logic           |
+| Ollama     | Local LLM runtime            |
+| Llama 3    | AI analysis and optimization |
+| SQLite     | History database             |
+| ReportLab  | PDF report generation        |
+| Uvicorn    | Backend server               |
 
 ### Runtime Support
 
-* Python
-* Node.js
-* OpenJDK
-* GCC
-* G++
+| Language   | Runtime / Compiler |
+| ---------- | ------------------ |
+| Python     | Python Interpreter |
+| JavaScript | Node.js            |
+| Java       | OpenJDK            |
+| C          | GCC                |
+| C++        | G++                |
 
 ---
 
-## 📸 Application Modules
+## 📁 Project Structure
 
-### 📊 Dashboard
-
-Real-time optimization statistics and metrics.
-
-### 🔍 AI Analysis
-
-Detailed code performance analysis.
-
-### ⚡ Optimization Engine
-
-AI-generated optimized code.
-
-### 📈 Runtime Metrics
-
-Execution and memory benchmarking.
-
-### 🤖 Agent Monitor
-
-Live agent execution tracking.
-
-### 💬 AI Chat Assistant
-
-Interactive AI-powered coding assistant.
-
-### 📂 History Manager
-
-View previous analyses and reports.
-
-### 📄 PDF Reporting
-
-Generate downloadable optimization reports.
+```text
+perfmind/
+│
+├── api.py                         # FastAPI main backend
+│
+├── backend/
+│   ├── database.py                # SQLite database logic
+│   ├── report_generator.py        # PDF report generation
+│   ├── chat_agent.py              # AI chat assistant
+│   └── __init__.py
+│
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   │
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── LiveAgentStream.js
+│   │   │   ├── CodeDiffViewer.js
+│   │   │   └── ChatAssistant.js
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── Dashboard.js
+│   │   │   ├── History.js
+│   │   │   ├── Analysis.js
+│   │   │   ├── Optimization.js
+│   │   │   ├── Metrics.js
+│   │   │   ├── AgentMonitor.js
+│   │   │   └── Settings.js
+│   │   │
+│   │   ├── App.js
+│   │   ├── App.css
+│   │   └── index.js
+│   │
+│   └── package.json
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
 
 ---
 
-## ⚙️ Installation
+## ⚙️ Installation Guide
 
-### Clone Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/Bunny100806/PerfMind.git
 cd PerfMind
 ```
 
-### Backend Setup
+---
 
-```bash
-pip install -r requirements.txt
-uvicorn api:app --reload
-```
+## 🧠 Install and Run Ollama
 
-### Frontend Setup
+Download and install Ollama from:
 
-```bash
-cd frontend
-npm install
-npm start
-```
-
-### Ollama Setup
-
-Install Ollama:
-
+```text
 https://ollama.com
-
-Download Llama 3:
-
-```bash
-ollama pull llama3
 ```
 
-Run Model:
+Then pull and run Llama 3:
 
 ```bash
 ollama run llama3
 ```
 
----
-
-## 🎯 Project Achievements
-
-✅ Multi-Agent Architecture
-
-✅ Multi-Language Support
-
-✅ Runtime Benchmarking
-
-✅ AI Code Optimization
-
-✅ AI Chat Assistant
-
-✅ PDF Report Generation
-
-✅ Optimization Validation
-
-✅ Optimization History Tracking
-
-✅ GitHub Deployment
-
-✅ Professional Dashboard Interface
+Keep this terminal running.
 
 ---
 
-## 🔮 Future Enhancements
+## 🐍 Backend Setup
 
-* 🐳 Docker Deployment
-* ☁️ Cloud Execution Sandbox
-* 🔒 Advanced Security Analysis
-* 🔄 CI/CD Integration
-* 📡 GitHub Pull Request Analysis
-* 🤖 AI Auto-Fix Recommendations
-* 👥 Team Collaboration Features
-* ☸️ Kubernetes Deployment
+Open a new terminal:
+
+```bash
+cd C:\Users\saich\perfmind
+```
+
+Install Python dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the FastAPI backend:
+
+```bash
+py -3.13 -m uvicorn api:app --reload
+```
+
+Backend will run at:
+
+```text
+http://127.0.0.1:8000
+```
 
 ---
 
-## 🎓 Academic Significance
+## ⚛️ Frontend Setup
 
-This project demonstrates practical applications of:
+Open another terminal:
 
-* Artificial Intelligence
-* Software Engineering
-* Full Stack Development
-* Multi-Agent Systems
-* Runtime Analysis
-* Performance Engineering
-* Large Language Models
-* Modern Web Technologies
+```bash
+cd C:\Users\saich\perfmind\frontend
+```
+
+Install frontend dependencies:
+
+```bash
+npm install
+```
+
+Start React:
+
+```bash
+npm start
+```
+
+Frontend will run at:
+
+```text
+http://localhost:3000
+```
 
 ---
 
-# 👨‍💻 Authors
+## ▶️ How to Use PerfMind
+
+1. Open the dashboard.
+2. Select a programming language.
+3. Paste or upload source code.
+4. Click **Run Analysis**.
+5. View AI analysis.
+6. Review optimized code.
+7. Compare runtime metrics.
+8. Check validation result.
+9. Download PDF report.
+10. View previous runs in History.
+
+---
+
+## 🧪 Sample Python Test Code
+
+```python
+result = []
+
+for i in range(2000):
+    for j in range(2000):
+        result.append(i * j)
+
+print(len(result))
+```
+
+This example creates a large list using nested loops, making it useful for testing execution time and memory behavior.
+
+---
+
+## 📊 Output Metrics
+
+PerfMind calculates and displays:
+
+| Metric                   | Meaning                                           |
+| ------------------------ | ------------------------------------------------- |
+| Original Execution Time  | Runtime of the submitted code                     |
+| Optimized Execution Time | Runtime of the optimized code                     |
+| Execution Saved          | Difference between original and optimized runtime |
+| Memory Usage             | Approximate memory consumption                    |
+| Optimization Gain        | Percentage improvement                            |
+| Validation Status        | Accepted or rejected optimization                 |
+
+---
+
+## 🧾 PDF Report
+
+PerfMind can generate a professional PDF report containing:
+
+* AI analysis
+* original code
+* optimized code
+* runtime metrics
+* validation result
+* optimization status
+
+This makes the system useful for academic submission, project demonstration, and performance review.
+
+---
+
+## 🗃️ History Management
+
+PerfMind stores previous analysis results using SQLite.
+
+Each saved record contains:
+
+* programming language
+* execution time
+* memory usage
+* optimization status
+* timestamp
+* error messages if any
+
+---
+
+## 🔐 Safety and Execution Control
+
+Since PerfMind executes user-submitted code, the system includes basic execution safety mechanisms:
+
+* timeout control
+* restricted execution rules
+* blocking unsafe commands where applicable
+* controlled runtime execution
+* validation before accepting optimization
+
+These controls reduce the risk of unsafe or harmful code execution during testing.
+
+---
+
+## 🎯 Research Contribution
+
+PerfMind contributes a practical execution-aware approach to AI-assisted code optimization.
+
+The main contribution is the integration of:
+
+```text
+LLM Reasoning + Multi-Agent Coordination + Runtime Execution + Validation Feedback
+```
+
+This makes optimization more reliable because the system validates AI-generated improvements using measured execution results instead of static assumptions.
+
+---
+
+## 📌 Project Highlights
+
+```text
+✅ Full-stack implementation
+✅ Local LLM integration
+✅ Multi-agent workflow
+✅ Multi-language runtime support
+✅ Runtime-based validation
+✅ SQLite history storage
+✅ PDF report generation
+✅ AI chat assistant
+✅ Professional academic use case
+```
+
+---
+
+## 🎥 Demo Flow
+
+Recommended video demonstration order:
+
+```text
+1. Start Ollama
+2. Start FastAPI backend
+3. Start React frontend
+4. Open dashboard
+5. Select language
+6. Paste code
+7. Run analysis
+8. Show AI analysis
+9. Show optimized code
+10. Show runtime metrics
+11. Show code diff viewer
+12. Ask AI chat assistant a question
+13. Download PDF report
+14. Open History page
+15. Show GitHub repository
+```
+
+---
+
+## 👨‍💻 Authors
 
 ### 👨‍🎓 Sai Charitharth Nadigoti
 
 **B.Sc. Computer Engineering**
+AFiB Vistula, Warsaw, Poland
 
 ### 👨‍🎓 Ayan Shaikh
 
 **B.Sc. Computer Engineering**
+AFiB Vistula, Warsaw, Poland
 
-### 🎓 Vistula University
+### 🎓 Supervisor
 
-*(Akademia Finansów i Biznesu Vistula)*
-
-### 📍 Warsaw, Poland
+**Prof. Kumar Nalinaksh**
+Assistant Professor
+AFiB Vistula, Warsaw, Poland
 
 ---
 
-## 📜 License
+## 🌐 Repository
 
-This project was developed for academic and educational purposes.
+```text
+https://github.com/Bunny100806/PerfMind
+```
 
-© 2026 PerfMind Team
+---
+
+## 🏁 Conclusion
+
+PerfMind demonstrates how large language models can be combined with real execution tools and agent-based coordination to support practical software performance optimization.
+
+The system does not blindly accept AI-generated code. Instead, it executes, measures, compares, validates, stores, and explains optimization results.
+
+This makes PerfMind a reliable and practical AI-assisted platform for performance analysis, code optimization, and software engineering education.
+
+---
+
+<div align="center">
+
+# ⚡ PerfMind
+
+### Think. Optimize. Execute. Validate.
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00E5FF,100:8A2BE2&height=120&section=footer"/>
+
+</div>
+```
